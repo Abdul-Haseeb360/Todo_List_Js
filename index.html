@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://kit.fontawesome.com/7e542d2b09.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="./webfonts/fa-regular-400.ttf">
+  <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+
+  <div class="todo">
+    <div class="searchinp">
+      <input type="text" placeholder="Add a new task" id="todoinp">
+      <button id="todobtn">+</button>
+      <button id="updatebtn" ><i class="fa-solid fa-pencil fa-lg"></i></button>
+
+    </div>
+    <div class="tasks">
+      <h2>Tasks to do - <span id="task-count">0</span></h2>
+      <ul id="todo-list"> </ul>
+    </div>
+    <div class="done-Tasks">
+      <h2>Done - <span id="done-Tasks">0</span></h2>
+      <ul id="completed-List"> 
+        
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
+
